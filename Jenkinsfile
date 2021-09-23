@@ -1,7 +1,7 @@
 pipeline {
     agent {
         label 'kubernetes || ba1'
-    } 
+    
    // Mark the code checkout 'stage'....
    stage 'Checkout'
    
